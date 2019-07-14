@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2723FB1122DAAD2900667476 /* Convert Sorted List to Binary Search Tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2723FB1022DAAD2900667476 /* Convert Sorted List to Binary Search Tree.cpp */; };
+		2723FB1322DAC93B00667476 /* Construct Binary Tree from Inorder and Postorder Traversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2723FB1222DAC93B00667476 /* Construct Binary Tree from Inorder and Postorder Traversal.cpp */; };
+		2723FB1522DAD59100667476 /* PathSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2723FB1422DAD59100667476 /* PathSum.cpp */; };
 		273D71E122D9773B00A7072B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 273D71E022D9773B00A7072B /* main.cpp */; };
+		273D71F322D9780200A7072B /* Maximum Sum of Two Non-Overlapping Subarrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 273D71F222D9780200A7072B /* Maximum Sum of Two Non-Overlapping Subarrays.cpp */; };
+		273D71F522D9935C00A7072B /* Minimum Area Rectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 273D71F422D9935C00A7072B /* Minimum Area Rectangle.cpp */; };
+		273D71F722D9A29600A7072B /* Minimum Increment to Make Array Unique.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 273D71F622D9A29600A7072B /* Minimum Increment to Make Array Unique.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -20,15 +26,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		273D71E922D977DD00A7072B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2723FB1022DAAD2900667476 /* Convert Sorted List to Binary Search Tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Convert Sorted List to Binary Search Tree.cpp"; sourceTree = "<group>"; };
+		2723FB1222DAC93B00667476 /* Construct Binary Tree from Inorder and Postorder Traversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Construct Binary Tree from Inorder and Postorder Traversal.cpp"; sourceTree = "<group>"; };
+		2723FB1422DAD59100667476 /* PathSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PathSum.cpp; sourceTree = "<group>"; };
 		273D71DD22D9773B00A7072B /* Leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		273D71E022D9773B00A7072B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		273D71EB22D977DD00A7072B /* 1031. Maximum Sum of Two Non-Overlapping Subarrays */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1031. Maximum Sum of Two Non-Overlapping Subarrays"; sourceTree = BUILT_PRODUCTS_DIR; };
+		273D71F222D9780200A7072B /* Maximum Sum of Two Non-Overlapping Subarrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Maximum Sum of Two Non-Overlapping Subarrays.cpp"; sourceTree = "<group>"; };
+		273D71F422D9935C00A7072B /* Minimum Area Rectangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Minimum Area Rectangle.cpp"; sourceTree = "<group>"; };
+		273D71F622D9A29600A7072B /* Minimum Increment to Make Array Unique.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Minimum Increment to Make Array Unique.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		273D71DA22D9773B00A7072B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		273D71E822D977DD00A7072B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -50,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				273D71DD22D9773B00A7072B /* Leetcode */,
+				273D71EB22D977DD00A7072B /* 1031. Maximum Sum of Two Non-Overlapping Subarrays */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,6 +88,12 @@
 			isa = PBXGroup;
 			children = (
 				273D71E022D9773B00A7072B /* main.cpp */,
+				273D71F222D9780200A7072B /* Maximum Sum of Two Non-Overlapping Subarrays.cpp */,
+				273D71F422D9935C00A7072B /* Minimum Area Rectangle.cpp */,
+				2723FB1022DAAD2900667476 /* Convert Sorted List to Binary Search Tree.cpp */,
+				2723FB1222DAC93B00667476 /* Construct Binary Tree from Inorder and Postorder Traversal.cpp */,
+				2723FB1422DAD59100667476 /* PathSum.cpp */,
+				273D71F622D9A29600A7072B /* Minimum Increment to Make Array Unique.cpp */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
@@ -82,6 +118,23 @@
 			productReference = 273D71DD22D9773B00A7072B /* Leetcode */;
 			productType = "com.apple.product-type.tool";
 		};
+		273D71EA22D977DD00A7072B /* 1031. Maximum Sum of Two Non-Overlapping Subarrays */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 273D71EF22D977DD00A7072B /* Build configuration list for PBXNativeTarget "1031. Maximum Sum of Two Non-Overlapping Subarrays" */;
+			buildPhases = (
+				273D71E722D977DD00A7072B /* Sources */,
+				273D71E822D977DD00A7072B /* Frameworks */,
+				273D71E922D977DD00A7072B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1031. Maximum Sum of Two Non-Overlapping Subarrays";
+			productName = "1031. Maximum Sum of Two Non-Overlapping Subarrays";
+			productReference = 273D71EB22D977DD00A7072B /* 1031. Maximum Sum of Two Non-Overlapping Subarrays */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,6 +145,9 @@
 				ORGANIZATIONNAME = xiayang;
 				TargetAttributes = {
 					273D71DC22D9773B00A7072B = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					273D71EA22D977DD00A7072B = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
@@ -109,6 +165,7 @@
 			projectRoot = "";
 			targets = (
 				273D71DC22D9773B00A7072B /* Leetcode */,
+				273D71EA22D977DD00A7072B /* 1031. Maximum Sum of Two Non-Overlapping Subarrays */,
 			);
 		};
 /* End PBXProject section */
@@ -118,7 +175,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				273D71F522D9935C00A7072B /* Minimum Area Rectangle.cpp in Sources */,
+				2723FB1122DAAD2900667476 /* Convert Sorted List to Binary Search Tree.cpp in Sources */,
+				273D71F322D9780200A7072B /* Maximum Sum of Two Non-Overlapping Subarrays.cpp in Sources */,
+				2723FB1322DAC93B00667476 /* Construct Binary Tree from Inorder and Postorder Traversal.cpp in Sources */,
 				273D71E122D9773B00A7072B /* main.cpp in Sources */,
+				273D71F722D9A29600A7072B /* Minimum Increment to Make Array Unique.cpp in Sources */,
+				2723FB1522DAD59100667476 /* PathSum.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		273D71E722D977DD00A7072B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +322,22 @@
 			};
 			name = Release;
 		};
+		273D71F022D977DD00A7072B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		273D71F122D977DD00A7072B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -269,6 +355,15 @@
 			buildConfigurations = (
 				273D71E522D9773B00A7072B /* Debug */,
 				273D71E622D9773B00A7072B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		273D71EF22D977DD00A7072B /* Build configuration list for PBXNativeTarget "1031. Maximum Sum of Two Non-Overlapping Subarrays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				273D71F022D977DD00A7072B /* Debug */,
+				273D71F122D977DD00A7072B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

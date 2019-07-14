@@ -1,13 +1,12 @@
 //
-//  main.cpp
+//  Maximum Sum of Two Non-Overlapping Subarrays.cpp
 //  Leetcode
 //
 //  Created by xiayang on 2019/7/13.
 //  Copyright © 2019 xiayang. All rights reserved.
 //
 
-#include <iostream>
-
+#include <stdio.h>
 //O(N^2)
 class Solution {
 public:
